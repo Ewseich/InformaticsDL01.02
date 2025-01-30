@@ -10,6 +10,10 @@ public class task111626 {
             }
         }
         for (int i = 0; i < n; i++) {
+            if (n == 1) {
+                obrsp += arr2x[i][i];
+                break;
+            }
             obrsp += arr2x[n-1][i];
             obrsp += arr2x[0][i];
             if (i > 0 && i < n-1){
